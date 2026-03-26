@@ -1,0 +1,25 @@
+[
+  {
+    "namespace": "RunFilters",
+    "functions": [
+      {
+        "name": "runOnFolder",
+        "type": "function",
+        "async": true,
+        "description": "Runs all enabled manual message filters on the given folder.",
+        "parameters": [
+          {
+            "name": "accountId",
+            "type": "string",
+            "description": "The accountId of the folder (from MailTab.displayedFolder.accountId)."
+          },
+          {
+            "name": "path",
+            "type": "string",
+            "description": "The path of the folder (from MailTab.displayedFolder.path)."
+          }
+        ]
+      }
+    ]
+  }
+]
