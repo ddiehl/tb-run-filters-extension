@@ -1,12 +1,13 @@
 {
   "manifest_version": 2,
   "name": "Run Filters on Current Folder",
-  "version": "1.0",
+  "version": "1.2",
   "description": "Adds a toolbar button to run message filters on the currently displayed folder.",
   "browser_specific_settings": {
     "gecko": {
       "id": "run-filters@example.net",
-      "strict_min_version": "128.0"
+      "strict_min_version": "128.0",
+      "strict_max_version": "149.*"
     }
   },
   "background": {
